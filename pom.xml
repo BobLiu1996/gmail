@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--该配置文件是一个聚合文件，即将其他的服务进行聚合，本身不依赖其他的包-->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.bob.gmail</groupId>
+	<artifactId>gmail</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>gmail</name>
+	<description>聚合服务</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>gmail-coupon</module>
+        <module>gmail-member</module>
+        <module>gmail-order</module>
+        <module>gmail-product</module>
+        <module>gmail-ware</module>
+    </modules>
+</project>
